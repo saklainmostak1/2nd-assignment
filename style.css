@@ -1,0 +1,188 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+@keyframes identifier {
+0%{
+    background-color: blueviolet;
+    left: 0;
+    top: 0;
+}
+25%{
+    background-color: palevioletred;
+    top: 50px;
+    /* transform: scale(0.5); */
+    /* top: 225px; */  
+}
+50%{
+    background-color: white;
+    top: 0;
+}
+75%{
+    background-color: red;
+    top: 50px;
+}
+100%{
+    background-color: magenta;
+    left: 600px;
+    top:0;
+}
+}
+.ball{
+    width: 20px;
+    height: 20px;
+    background-color: limegreen;
+    border-radius: 50%;
+    animation: identifier 5s ease-in-out 0.5s infinite alternate;
+    position: relative;
+    animation-play-state: running;
+}
+
+.header{
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.match{
+    background-color: black;
+    margin: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    width: 70%; 
+    height: 600px;
+    margin-left: 280px;
+}
+.first{
+    color: white;
+    margin-left: 100px;
+    }
+    .paragraph{
+        width: 80%;
+        font-size: 25px;
+    }
+    .image{
+        padding-top: 10px;
+        padding-right: 100px;
+    }
+.live{
+    text-decoration: none;
+    background: linear-gradient( 45deg, red, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}  
+.blog{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 10px;
+    background-color: black;
+    height: 250px;
+    
+}
+.blog7{
+    margin-top: 8px;
+}
+.blog-con{
+    background: linear-gradient( 45deg, red, red);
+}
+
+.blog a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 26px;
+    border: 1px solid black;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.match2:hover{
+    background-color: red;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   margin-left: 1rem;
+   gap: 1rem;
+}
+.box{
+     box-shadow: 0px 0px 1.2px 0px ;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.box-element{
+    margin-left: 15px;
+    
+}
+.blog-container{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    justify-content: center;  
+}
+.last-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* height: 300px; */
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(197, 181, 181);
+    margin: 70px;
+    padding-top: 100px;    
+}
+.nayan{
+   font-size: 50px;
+}
+hr{
+    border: 1px solid rgb(56, 53, 53);
+    margin-bottom: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.icon{
+    /* padding-top: 100px; */
+    font-size: 40px;
+    color: white;
+    
+}
+.game{
+height: 60px;
+
+
+}
+.game2{
+    display: flex;
+}
+.game1{
+    border-radius: 5px;
+    text-align: center;
+     padding: 30px;
+    margin: 10px; 
+    box-shadow: 0px 0px 1.2px 0px ;
+}
+.icon-blog{
+    display: flex;
+    margin-right: 180px;
+    justify-content: space-between;
+}
+span{
+    margin-left: 10px;
+}
+.icon a{
+    color: white;
+}
+/* Media Queries */
+/* Mocile Devices */
+@media only screen and (min-width: 688px) 
+{
+    
+}
